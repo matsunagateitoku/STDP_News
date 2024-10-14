@@ -1,0 +1,182 @@
+/*style for PDB title   */
+#title {
+	color: white;
+	font-size: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	border-radius: 16px;
+	background-color:DodgerBlue;
+}
+
+.body {font-family: Arial;}
+/* Style the tab; tab = box around */
+
+.section_title{
+	padding-top: 50px
+}
+
+.tab {
+  overflow: hidden;
+  border: 3px solid #ccc;
+  background-color: #f1f1f1;
+	
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* #grey-national {
+  background-color: purple;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+} */
+#grey-national:hover {
+	background-color: #272829;
+	color: white;
+}	
+
+/* #red-national {
+  background-color: red;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}	 */
+#red-national:hover {
+  background-color: #f49090;
+	color: white;
+}
+
+
+
+/* ~~~~ this is how i should be doing button style. all buttons that start witn */
+button[class^="blue"] {
+  background-color: #0707b5;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+button[class^="grey"] {
+  background-color: purple;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+button[class^="red"] {
+  background-color: red;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}	
+
+button[class^="blue"]: hover {
+	background-color: purple;
+	color: white;
+}
+
+/* #blue-national {
+  background-color: #0707b5;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+} */
+/* #blue-national:hover {
+	background-color: #0066ff;
+	color: white;
+} */
+
+/* #grey-local {
+  background-color: purple;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+} */
+#grey-local:hover {
+	background-color: #272829;
+	color: white;
+}	
+/* #red-local {
+  background-color: red;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}	 */
+#red-local:hover {
+  background-color: #f49090;
+	color: white;
+}
+
+/* #blue-local {
+  background-color: #0707b5;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+} */
+/* #blue-local:hover {
+	background-color: #0066ff;
+	color: white;
+} */
