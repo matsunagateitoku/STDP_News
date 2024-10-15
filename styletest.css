@@ -50,7 +50,7 @@
 	color: white;
 }	
 
-/* #red-national {
+* #red-national {
   background-color: red;
   border: none;
   color: whitesmoke;
@@ -61,7 +61,7 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
-}	 */
+}	 
 #red-national:hover {
   background-color: #f49090;
 	color: white;
