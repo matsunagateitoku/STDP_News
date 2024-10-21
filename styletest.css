@@ -8,6 +8,18 @@
 	background-color:DodgerBlue;
 }
 
+#title {
+  font-size: 76px; /* Adjust the size as needed */
+  font-weight: bold; /* Make it bold */
+  color: #aacdf0; /* Dark blue-gray color */
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Add space above and below */
+  text-transform: uppercase; /* Make text uppercase for emphasis */
+  letter-spacing: 1px; /* Add some space between letters */
+  font-family: 'Arial', sans-serif; /* Choose a font family */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
 .body {font-family: Arial;}
 /* Style the tab; tab = box around */
 
@@ -17,16 +29,16 @@
 
 .tab {
   overflow: hidden;
-  border: 3px solid #ccc;
   background-color: #f1f1f1;
+  border: 4px solid #9ea3bb; /* Blue */
+  border-radius: 5px; /* Rounded corners */
 }
 
 summary {
+  margin-top: 20px; /* Adjust the value as needed */
   font-size: 24px;
   font-weight: bold;
-  color: #333; /* Dark gray */
-  border: 2px solid #007BFF; /* Blue */
-  border-radius: 5px; /* Rounded corners */
+  color: #2e2b2b; /* Dark gray */
   transition: background-color 0.3s;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   font-family: 'Arial', sans-serif; /* Change to your preferred font */
