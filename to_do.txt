@@ -1,5 +1,6 @@
 big/hard
-  - extract data into JSON and change html to template literal  
+  - extract data into JSON 
+  - change html to template literal  
   - add on bais buttons 
   - change the domain name
 
@@ -8,4 +9,8 @@ easy/small
   add more papers 
   improve the header
   add a footer 
+
+  Thoughts
+  - add logo to some sites?
+  - add state flags to papers?
 
