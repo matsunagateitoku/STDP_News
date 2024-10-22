@@ -1,0 +1,8 @@
+big/hard
+  - style the button red/blue/green 
+  - add hoverover 
+  - extract data into JSON and change html to template literal  
+  - add on bais buttons 
+easy/small
+  add more papers 
+
