@@ -32,7 +32,8 @@
     </nav>
 
 
-	
+	<summary>Test Newspapers</summary>
+    <div class="tab" id="newspapers"></div>
 
 
 	<summary>National Newspapers</summary>	
@@ -476,4 +477,27 @@
    <a href="./website4.html">pills for sites</a>
    <a href="./wordcloud.html">wordcloud</a>
 </body>
+
+<script>
+	async function loadNewspapers() {
+		const response = await fetch('data/national_papers.json');
+		const newspapers = await response.json();
+		const container = document.getElementById('newspapers');
+		
+		const buttons = newspapers.map(({ name, url, class: buttonClass }) => `
+			<form action="${url}" method="get" target="_blank">
+				<button class="${buttonClass}" type="submit">${name}</button>
+			</form>
+		`).join('');
+
+		container.innerHTML = buttons;
+	}
+
+	loadNewspapers();
+</script>
+
+
+
+
+
 </html> 
