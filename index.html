@@ -32,31 +32,8 @@
     </nav>
 
 
-	<summary>Test Newspapers</summary>
+	<summary>National Newspapers</summary>
     <div class="tab" id="newspapers"></div>
-
-
-	<summary>National Newspapers</summary>	
-	<div class="tab">
-	<form action="https://www.usatoday.com//" method="get" target="_blank">
-		<button class=grey type="submit">USA Today</button></form>
-	<form action="https://www.nytimes.com/" method="get" target="_blank">
-		<button class=blue-national type="submit">New York Times</button> </form>
-	<form action="https://www.wsj.com/" method="get" target="_blank">
-		<button class=red-national type="submit">Wall Street Journal</button></form>
-	<form action="https://www.washingtonpost.com/" method="get" target="_blank">
-		<button class=blue-national type="submit">Washington Post</button> </form> 
-	<form action="https://www.latimes.com/" method="get" target="_blank">
-		<button class=blue-national type="submit">LA Times</button></form>
-	<form action="https://www.csmonitor.com/" method="get" target="_blank">
-		<button class=grey type="submit">Christian Science Monitor</button> </form>
-	<form action="https://www.theepochtimes.com/" method="get" target="_blank">
-		<button class=red-national type="submit">Epoch Times</button></form>
-	<form action="https://www.frontpages.com/?/" method="get" target="_blank">  <!-- fix link-->
-		<button class=grey type="submit">Frontpages</button> </form>
-	<form action="https://www.freedomforum.org/todaysfrontpages/#1" method="get" target="_blank">
-		<button class=grey type="submit">Front Page</button> </form>
-	</div>	
 
 
 	<summary>US Newspapers</summary>
@@ -109,7 +86,7 @@
          	<button type="submit">Mcclatchy</button></form>		
 		</div>
 
-	</summary>Web News</summary>
+	<summary>Web News</summary>
 	<div class="tab">
 		<form action="https://www.thedailybeast.com/" method="get" target="_blank">
       	<button type="submit">Daily Beast</button> </form>		
@@ -180,7 +157,7 @@
 	</div>
 	
 
-</summary>Political News</summary>
+<summary>Political News</summary>
 		<div class="tab">
 		<form action="https://www.politico.com/" method="get" target="_blank">
       	<button type="submit">Politico</button></form>	
@@ -480,7 +457,7 @@
 
 <script>
 	async function loadNewspapers() {
-		const response = await fetch('data/national_papers.json');
+		const response = await fetch('data/national_papers.js');
 		const newspapers = await response.json();
 		const container = document.getElementById('newspapers');
 		
