@@ -1,8 +1,11 @@
 big/hard
-  - style the button red/blue/green 
-  - add hoverover 
   - extract data into JSON and change html to template literal  
   - add on bais buttons 
+  - change the domain name
+
 easy/small
+  add colors to all the buttons
   add more papers 
+  improve the header
+  add a footer 
 
