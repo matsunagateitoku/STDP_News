@@ -1,4 +1,13 @@
 /*style for PDB title   */
+.no-styles {
+    background: none; /* Remove background */
+    color: inherit;   /* Inherit text color */
+    border: none;     /* Remove border */
+    padding: 0;      /* Remove padding */
+    cursor: pointer;  /* Change cursor to pointer */
+}
+
+
 #title {
 	color: white;
 	font-size: 70px;
