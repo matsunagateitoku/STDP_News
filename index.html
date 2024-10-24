@@ -459,7 +459,6 @@
    <a href="./website4.html">pills for sites</a>
    <a href="./wordcloud.html">wordcloud</a>
 </body>
-
 <script>
 	async function loadNewspapers(sources) {
 		for (const { file, sectionId } of sources) {
@@ -485,6 +484,17 @@
 		}
 	}
 
+	// Function to toggle styles
+	function toggleStyles() {
+		const sections = ['nationalPapers', 'localPapers', 'international-section'];
+		sections.forEach(sectionId => {
+			const buttons = document.querySelectorAll(`#${sectionId} button`);
+			buttons.forEach(button => {
+				button.classList.toggle('no-styles'); // Toggle your no-styles class
+			});
+		});
+	}
+
 	document.addEventListener('DOMContentLoaded', () => {
 		const sources = [
 			{ file: 'data/national_papers.js', sectionId: 'nationalPapers' },
@@ -492,21 +502,10 @@
 			{ file: 'data/international_papers.js', sectionId: 'international-section' },
 		];
 		loadNewspapers(sources);
-
-
-
-// Load newspapers and set up the toggle event listener
-document.addEventListener('DOMContentLoaded', () => {
-    loadNewspapers();
-    document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
-});
-
-
-
-
-
-	
+		document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
+	});
 </script>
+
 
 
 </html> 
