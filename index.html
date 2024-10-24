@@ -484,16 +484,19 @@
 		}
 	}
 
-	// Function to toggle styles
-	function toggleStyles() {
-		const sections = ['nationalPapers', 'localPapers', 'international-section'];
-		sections.forEach(sectionId => {
-			const buttons = document.querySelectorAll(`#${sectionId} button`);
-			buttons.forEach(button => {
-				button.classList.toggle('no-styles'); // Toggle your no-styles class
-			});
+function toggleStyles() {
+	const sections = ['nationalPapers', 'localPapers', 'international-section'];
+	sections.forEach(sectionId => {
+		const buttons = document.querySelectorAll(`#${sectionId} button`);
+		buttons.forEach(button => {
+			if (button.classList.contains('no-styles')) {
+				button.classList.remove('no-styles');
+			} else {
+				button.classList.add('no-styles');
+			}
 		});
-	}
+	});
+}
 
 	document.addEventListener('DOMContentLoaded', () => {
 		const sources = [
