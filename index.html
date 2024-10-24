@@ -482,6 +482,7 @@
 				console.error('There has been a problem with your fetch operation:', error);
 			}
 		}
+		 container.innerHTML = buttons;
 	}
 
 	document.addEventListener('DOMContentLoaded', () => {
@@ -491,7 +492,20 @@
 			{ file: 'data/international_papers.js', sectionId: 'international-section' },
 		];
 		loadNewspapers(sources);
-	});
+
+
+
+// Load newspapers and set up the toggle event listener
+document.addEventListener('DOMContentLoaded', () => {
+    loadNewspapers();
+    document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
+});
+
+
+
+
+
+	
 </script>
 
 
