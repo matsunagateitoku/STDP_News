@@ -1,6 +1,7 @@
 big/hard
   - extract data into JSON 
   - change html to template literal  
+
   - add on bais buttons 
   - change the domain name
 
