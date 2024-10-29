@@ -15,8 +15,8 @@
         "class": "red-national"
     },
     {
-        "name": "McClatchy",
+        "name": "Mcclatchy",
         "url": "https://www.mcclatchydc.com/",
-        "class": "blue-national"
+        "class": "grey"
     }
 ]
