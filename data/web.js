@@ -1,6 +1,3 @@
-Here’s your data formatted as requested:
-
-```json
 [
     {
         "name": "Daily Beast",
