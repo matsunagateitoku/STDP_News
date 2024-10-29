@@ -7,7 +7,7 @@
     {
         "name": "Reuters",
         "url": "https://www.reuters.com/",
-        "class": "blue-national"
+        "class": "grey"
     },
     {
         "name": "Bloomberg",
