@@ -5,22 +5,22 @@ Here’s your data formatted as requested:
     {
         "name": "Daily Beast",
         "url": "https://www.thedailybeast.com/",
-        "class": "grey"
+        "class": "blue-web"
     },
     {
         "name": "Intercept",
         "url": "https://theintercept.com/",
-        "class": "blue-national"
+        "class": "gery-web"
     },
     {
         "name": "Salon",
         "url": "https://www.salon.com/",
-        "class": "red-national"
+        "class": "b-lue-web"
     },
     {
         "name": "Axios",
         "url": "https://www.axios.com/",
-        "class": "blue-national"
+        "class": "grey-web"
     },
     {
         "name": "Breitbart",
