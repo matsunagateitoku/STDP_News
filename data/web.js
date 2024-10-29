@@ -7,12 +7,12 @@
     {
         "name": "Intercept",
         "url": "https://theintercept.com/",
-        "class": "gery-web"
+        "class": "grey-web"
     },
     {
         "name": "Salon",
         "url": "https://www.salon.com/",
-        "class": "b-lue-web"
+        "class": "blue-web"
     },
     {
         "name": "Axios",
@@ -22,7 +22,7 @@
     {
         "name": "Breitbart",
         "url": "https://www.breitbart.com/",
-        "class": "red-national"
+        "class": "red-web"
     },
     {
         "name": "Bulwark",
