@@ -150,6 +150,3 @@
         "class": "grey"
     }
 ]
-```
-
-Feel free to modify the `"class"` values as needed!
