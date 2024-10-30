@@ -109,7 +109,7 @@ button[class^="blue"] {
 }
 
 button[class^="grey"] {
-  background-color: purple;
+  background-color: rgb(85, 69, 85);
   border: none;
   color: whitesmoke;
   padding: 10px 20px;
