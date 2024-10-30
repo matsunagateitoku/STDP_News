@@ -47,7 +47,8 @@
 	<summary>Web News</summary>
 	<div class="tab" id="web"></div>
 
-
+	<summary>Political News</summary>
+	<div class="tab" id="political"></div>
 	
 
 <summary>Political News</summary>
@@ -391,7 +392,8 @@ function toggleStyles() {
 			{ file: 'data/national_papers.js', sectionId: 'nationalPapers' },
 			{ file: 'data/local_papers.js', sectionId: 'localPapers' },
 			{ file: 'data/wire.js', sectionId: 'wire' },
-			{ file: 'data/web.js', sectionId: 'web' }
+			{ file: 'data/web.js', sectionId: 'web' },
+			{ file: 'data/poltical.js', sectionId: 'poltical' }
 		];
 		loadNewspapers(sources);
 		document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
