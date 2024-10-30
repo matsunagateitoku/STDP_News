@@ -42,7 +42,7 @@
     {
         "name": "Slate",
         "url": "https://slate.com/",
-        "class": "grey"
+        "class": "blue"
     },
     {
         "name": "Drudge",
@@ -52,7 +52,7 @@
     {
         "name": "Yahoo!",
         "url": "https://news.yahoo.com/",
-        "class": "blue-national"
+        "class": "grey"
     },
     {
         "name": "Alternet",
@@ -92,7 +92,7 @@
     {
         "name": "Village Voice",
         "url": "https://www.villagevoice.com/",
-        "class": "grey"
+        "class": "blue"
     },
     {
         "name": "Pro Publica",
@@ -107,7 +107,7 @@
     {
         "name": "Paste",
         "url": "https://www.pastemagazine.com/",
-        "class": "grey"
+        "class": "blue"
     },
     {
         "name": "Reason",
@@ -127,7 +127,7 @@
     {
         "name": "Jezebel",
         "url": "https://jezebel.com/",
-        "class": "grey"
+        "class": "blue"
     },
     {
         "name": "QZ",
@@ -137,12 +137,12 @@
     {
         "name": "Root",
         "url": "https://www.theroot.com/",
-        "class": "grey"
+        "class": "blue"
     },
     {
         "name": "AV Club",
         "url": "https://www.avclub.com/",
-        "class": "grey"
+        "class": "blue"
     },
     {
         "name": "Scripps",
