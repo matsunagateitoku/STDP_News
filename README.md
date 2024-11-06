@@ -1,7 +1,8 @@
 Repostory on all the major Engilsh language news sites.
 
-Add to do list here?
+
 
 First version 
+making daily progress 
 
 Long-term plan to integrate NLP
