@@ -1,23 +1,52 @@
-<summary>Magazines</summary>
-	<div class="tab">	
-		<form action="https://www.theatlantic.com/" method="get" target="_blank">
-         <button type="submit">Atlantic</button></form>		
-		<form action="https://time.com/" method="get" target="_blank">
-         <button type="submit">TIME</button></form>		
-		<form action="https://newrepublic.com/" method="get" target="_blank">
-         <button type="submit">New Republic</button></form>		
-		<form action="https://www.newyorker.com/" method="get" target="_blank">
-         <button type="submit">New Yorker</button></form>		
-		<form action="https://www.foreignaffairs.com/" method="get" target="_blank">
-         <button type="submit">Foreign Affairs</button></form>		
-		<form action="https://www.thenation.com/" method="get" target="_blank">
-         <button type="submit">Nation</button></form>		
-		<form action="https://www.nationalreview.com/" method="get" target="_blank">
-         <button type="submit">National Review</button></form>		
-		<form action="https:https://www.newsweek.com/" method="get" target="_blank">
-         <button type="submit">News Week</button></form>		
-		<form action="https://www.usnews.com/" method="get" target="_blank">
-         <button type="submit">US News</button></form>	
-		<form action="https://foreignpolicy.com/" method="get" target="_blank">
-         <button type="submit">Foreign Policy</button></form>
-		</div>	
+[
+    {
+        "name": "Atlantic",
+        "url": "https://www.theatlantic.com/",
+        "class": "grey"
+    },
+    {
+        "name": "TIME",
+        "url": "https://time.com/",
+        "class": "blue-national"
+    },
+    {
+        "name": "New Republic",
+        "url": "https://newrepublic.com/",
+        "class": "red-national"
+    },
+    {
+        "name": "New Yorker",
+        "url": "https://www.newyorker.com/",
+        "class": "blue-national"
+    },
+    {
+        "name": "Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/",
+        "class": "green-international"
+    },
+    {
+        "name": "Nation",
+        "url": "https://www.thenation.com/",
+        "class": "blue-national"
+    },
+    {
+        "name": "National Review",
+        "url": "https://www.nationalreview.com/",
+        "class": "red-national"
+    },
+    {
+        "name": "News Week",
+        "url": "https://www.newsweek.com/",
+        "class": "purple-international"
+    },
+    {
+        "name": "US News",
+        "url": "https://www.usnews.com/",
+        "class": "blue-national"
+    },
+    {
+        "name": "Foreign Policy",
+        "url": "https://foreignpolicy.com/",
+        "class": "green-international"
+    }
+]
