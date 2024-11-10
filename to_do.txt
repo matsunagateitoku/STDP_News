@@ -3,6 +3,7 @@ big/hard
   - change html to template literal  
 
   - add on bais buttons 
+  - add button to "show more"
   - change the domain name
 
 easy/small
