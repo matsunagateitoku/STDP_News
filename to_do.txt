@@ -2,7 +2,7 @@ big/hard
   - extract data into JSON 
   - change html to template literal  
 
-  - add on bais buttons 
+  - add on bais buttons [added it but its not working]
   - add button to "show more"
   - change the domain name
 
