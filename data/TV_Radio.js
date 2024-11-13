@@ -2,17 +2,17 @@
     {
         "name": "Fox",
         "url": "https://www.foxnews.com/",
-        "class": "TV_Radio"
+        "class": "red"
     },
     {
         "name": "CNN",
         "url": "https://www.cnn.com/",
-        "class": "TV_Radio"
+        "class": "gtey"
     },
     {
         "name": "MSNBC",
         "url": "https://www.msnbc.com/",
-        "class": "TV_Radio"
+        "class": "blue"
     },
     {
         "name": "ABC",
