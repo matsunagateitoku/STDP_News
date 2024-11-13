@@ -7,7 +7,7 @@
     {
         "name": "CNN",
         "url": "https://www.cnn.com/",
-        "class": "gtey"
+        "class": "grey"
     },
     {
         "name": "MSNBC",
