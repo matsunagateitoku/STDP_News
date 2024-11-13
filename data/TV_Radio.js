@@ -27,7 +27,7 @@
     {
         "name": "NBC",
         "url": "https://www.nbcnews.com/",
-        "class": "TV_Radio"
+        "class": "blue-national"
     },
     {
         "name": "News Max",
