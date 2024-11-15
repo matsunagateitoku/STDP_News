@@ -57,6 +57,6 @@
     {
         "name": "VOA",
         "url": "https://www.voanews.com/",
-        "class": "TV_Radio"
+        "class": "grey"
     }
 ]
