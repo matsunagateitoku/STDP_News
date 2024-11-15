@@ -37,22 +37,22 @@
     {
         "name": "NPR",
         "url": "https://www.npr.org/",
-        "class": "TV_Radio"
+        "class": "blue"
     },
     {
         "name": "PBS",
         "url": "https://www.pbs.org/newshour/",
-        "class": "TV_Radio"
+        "class": "blue"
     },
     {
         "name": "CNBC",
         "url": "https://www.cnbc.com/",
-        "class": "TV_Radio"
+        "class": "red"
     },
     {
         "name": "OANN",
         "url": "https://www.oann.com/",
-        "class": "TV_Radio"
+        "class": "red"
     },
     {
         "name": "VOA",
