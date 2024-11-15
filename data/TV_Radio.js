@@ -17,12 +17,12 @@
     {
         "name": "ABC",
         "url": "https://abcnews.go.com/",
-        "class": "TV_Radio"
+        "class": "blue"
     },
     {
         "name": "CBS",
         "url": "https://www.cbsnews.com/",
-        "class": "TV_Radio"
+        "class": "blue"
     },
     {
         "name": "NBC",
@@ -32,7 +32,7 @@
     {
         "name": "News Max",
         "url": "https://www.newsmax.com/",
-        "class": "TV_Radio"
+        "class": "red"
     },
     {
         "name": "NPR",
