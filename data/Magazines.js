@@ -22,7 +22,7 @@
     {
         "name": "Foreign Affairs",
         "url": "https://www.foreignaffairs.com/",
-        "class": "green-international"
+        "class": "grey"
     },
     {
         "name": "Nation",
@@ -37,7 +37,7 @@
     {
         "name": "News Week",
         "url": "https://www.newsweek.com/",
-        "class": "purple-international"
+        "class": "grey"
     },
     {
         "name": "US News",
@@ -47,6 +47,6 @@
     {
         "name": "Foreign Policy",
         "url": "https://foreignpolicy.com/",
-        "class": "green-international"
+        "class": "grey"
     }
 ]
