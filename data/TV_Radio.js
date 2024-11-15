@@ -50,7 +50,7 @@
         "class": "TV_Radio"
     },
     {
-        "name": "VOA",
+        "name": "OANN",
         "url": "https://www.oann.com/",
         "class": "TV_Radio"
     },
