@@ -56,7 +56,7 @@
 	<div class="tab" id="Magazines"></div>
 
 	<summary>Finance</summary>
-	<div class="tab">
+	<div class="tab" id="Finance"></div>div
 		
 	
 	<summary>Sports</summary>
@@ -320,7 +320,8 @@ function toggleStyles() {
 			{ file: 'data/web.js', sectionId: 'web' },
 			{ file: 'data/political.js', sectionId: 'political' },
 			{ file: 'data/TV_Radio.js', sectionId: 'TV_Radio' },
-			{ file: 'data/Magazines.js', sectionId: 'Magazines' }
+			{ file: 'data/Magazines.js', sectionId: 'Magazines' },
+			{ file: 'data/Magazines.js', sectionId: 'Finance' }
 		];
 		loadNewspapers(sources);
 		document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
