@@ -1,4 +1,38 @@
 /*style for PDB title   */
+
+
+
+/* Style for the toggle button */
+#toggleStyles {
+    background-color: #007bff;   /* Blue background */
+    color: white;                /* White text */
+    border: 2px solid #007bff;   /* Border matches background */
+    padding: 10px 20px;          /* Some padding */
+    font-size: 16px;             /* Font size */
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+    transition: all 0.3s ease;   /* Smooth transition for background, border, and text color */
+}
+
+/* Hover effect */
+#toggleStyles:hover {
+    background-color: #0056b3;   /* Darker blue on hover */
+    border-color: #0056b3;       /* Darker border on hover */
+    color: white;                /* Keep text white */
+}
+
+/* Focus effect for accessibility */
+#toggleStyles:focus {
+    outline: none;               /* Remove default outline */
+    box-shadow: 0 0 0 4px rgba(38, 143, 255, 0.5); /* Custom focus ring */
+}
+
+/* Active effect (when clicked) */
+#toggleStyles:active {
+    background-color: #004085;   /* Darker blue on click */
+    border-color: #004085;       /* Darker border on click */
+}
+
 .no-styles {
     background: none; /* Remove background */
     color: inherit;   /* Inherit text color */
