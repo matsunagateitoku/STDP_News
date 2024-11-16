@@ -9,6 +9,7 @@ big/hard
 easy/small
   add colors to all the buttons
   add more papers 
+    go through the data file
   improve the header
   add a footer 
 
