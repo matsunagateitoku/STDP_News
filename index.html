@@ -217,44 +217,64 @@
    <a href="./website4.html">pills for sites</a>
    <a href="./wordcloud.html">wordcloud</a>
 </body>
+
 <script>
-	async function loadNewspapers(sources) {
-		for (const { file, sectionId } of sources) {
-			const container = document.getElementById(sectionId);
-			container.innerHTML = '<p>Loading...</p>'; // Loading indicator
+    async function loadNewspapers(sources) {
+        for (const { file, sectionId } of sources) {
+            const container = document.getElementById(sectionId);
+            container.innerHTML = '<p>Loading...</p>'; // Loading indicator
 
-			try {
-				const response = await fetch(file);
-				if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
+            try {
+                const response = await fetch(file);
+                if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
 
-				const newspapers = await response.json();
-				const buttons = newspapers.map(({ name, url, class: buttonClass }) => `
-					<form action="${url}" method="get" target="_blank" aria-label="${name}">
-						<button class="${buttonClass}" type="submit">${name}</button>
-					</form>
-				`).join('');
+                const newspapers = await response.json();
+                const buttons = newspapers.map(({ name, url, class: buttonClass }) => `
+                    <form action="${url}" method="get" target="_blank" aria-label="${name}">
+                        <button class="${buttonClass}" type="submit">${name}</button>
+                    </form>
+                `).join('');
 
-				container.innerHTML = buttons;
-			} catch (error) {
-				container.innerHTML = '<p>Error loading newspapers.</p>'; // Error message
-				console.error('There has been a problem with your fetch operation:', error);
-			}
-		}
-	}
+                container.innerHTML = buttons;
 
-function toggleStyles() {
-	const sections = ['nationalPapers', 'localPapers', 'international-section'];
-	sections.forEach(sectionId => {
-		const buttons = document.querySelectorAll(`#${sectionId} button`);
-		buttons.forEach(button => {
-			if (button.classList.contains('no-styles')) {
-				button.classList.remove('no-styles');
-			} else {
-				button.classList.add('no-styles');
-			}
-		});
-	});
-}
+                // Now call toggleStyles after the buttons are loaded
+                toggleStyles();
+            } catch (error) {
+                container.innerHTML = '<p>Error loading newspapers.</p>'; // Error message
+                console.error('There has been a problem with your fetch operation:', error);
+            }
+        }
+    }
+
+    function toggleStyles() {
+        const sections = ['nationalPapers', 'localPapers', 'international-section'];
+        sections.forEach(sectionId => {
+            const buttons = document.querySelectorAll(`#${sectionId} button`);
+            console.log(buttons); // Log to check if buttons are selected
+            buttons.forEach(button => {
+                if (button.classList.contains('no-styles')) {
+                    button.classList.remove('no-styles');
+                } else {
+                    button.classList.add('no-styles');
+                }
+            });
+        });
+    }
+</script>
+
+<style>
+    .no-styles {
+        all: unset; /* Removes all styles */
+        background: none;
+        border: none;
+        color: inherit;
+        font: inherit;
+    }
+</style>
+
+
+		
+
 
 	document.addEventListener('DOMContentLoaded', () => {
 		const sources = [
