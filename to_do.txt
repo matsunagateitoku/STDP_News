@@ -1,5 +1,4 @@
 big/hard
-  - extract data into JSON 
   - change html to template literal  
 
   - add on bais buttons [added it but its not working]
@@ -17,3 +16,12 @@ easy/small
   - add logo to some sites?
   - add state flags to papers?
 
+
+
+
+
+
+
+
+Done
+ - extract data into JSON 
