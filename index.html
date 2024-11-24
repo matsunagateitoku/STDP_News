@@ -66,6 +66,12 @@
 
 	<summary>International Papers</summary>
 	<div class="tab" id="International"></div>
+
+	<summary>Science</summary>
+	<div class="tab" id="Science"></div>
+
+	<summary>Technology</summary>
+	<div class="tab" id="Technology"></div>
 		
 	
 	<summary>Science & Tech</summary>
@@ -207,7 +213,9 @@
 			{ file: 'data/Finance.js', sectionId: 'Finance' },
 			{ file: 'data/Sports.js', sectionId: 'Sports' },
 			{ file: 'data/think_tanks.js', sectionId: 'think_tanks' },
-			{ file: 'data/international.js', sectionId: 'International' }
+			{ file: 'data/international.js', sectionId: 'International' },
+			{ file: 'data/international.js', sectionId: 'Science' },
+			{ file: 'data/international.js', sectionId: 'Technolgy' }
 		];
 		loadNewspapers(sources);
 		document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
@@ -228,10 +236,6 @@ function toggleStyles() {
         });
     });
 }
-
 </script>
-
-
-
 </html> 
 
