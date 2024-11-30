@@ -1,20 +1,24 @@
 big/hard
-  - change html to template literal  
-
   - add on bais buttons [added it but its not working]
   - add button to "show more"
   - change the domain name
+
 
 easy/small
   add colors to all the buttons
   add more papers 
     go through the data file
   improve the header
-  add a footer 
 
   Thoughts
   - add logo to some sites?
   - add state flags to papers?
+  - Host at Blue Ocean
+
+Future
+- Add wordcloud 
+- add NER
+- Add map 
 
 
 
@@ -25,3 +29,5 @@ easy/small
 
 Done
  - extract data into JSON 
+ - change html to template literal  
+ -  add a footer 
