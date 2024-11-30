@@ -267,8 +267,8 @@ button[class^="grey"]:hover {
 
 /* Footer styles */
 .footer {
-    background-color: #333;
-    color: #aacdf0; /* Dark blue-gray color */
+    background-color: #aacdf0; /* Dark blue-gray color */
+    color: #fff;
     padding: 20px 0;
     text-align: center;
 }
