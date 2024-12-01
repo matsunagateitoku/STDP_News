@@ -34,7 +34,7 @@
 }
 
 .no-styles {
-  background-color: rgb(118, 93, 118);
+  background-color: red;
   border: none;
   color: whitesmoke;
   padding: 10px 20px;
