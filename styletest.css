@@ -34,17 +34,13 @@
 }
 
 .no-styles {
-  background-color: red;
-  border: none;
-  color: whitesmoke;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
+    background: none !important; /* Remove background */
+    color: inherit !important;   /* Inherit text color */
+    border: none !important;     /* Remove border */
+    padding: 0 !important;      /* Remove padding */
+    cursor: pointer !important;  /* Change cursor to pointer */
 }
+
 
 
 #title {
