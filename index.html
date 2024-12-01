@@ -128,31 +128,46 @@
 
 	
 </body>
-
 <script>
+	// Asynchronous function to load newspapers from multiple sources
 	async function loadNewspapers(sources) {
+		// Iterate over each source object (containing file and sectionId)
 		for (const { file, sectionId } of sources) {
+			// Get the container element where the buttons will be placed by sectionId
 			const container = document.getElementById(sectionId);
+
+			// Show a loading message while the content is being fetched
 			container.innerHTML = '<p>Loading...</p>'; // Loading indicator
 
 			try {
+				// Fetch the file (JSON data) for the current source
 				const response = await fetch(file);
+
+				// Check if the fetch was successful, otherwise throw an error
 				if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
 
+				// Parse the JSON response containing newspapers information
 				const newspapers = await response.json();
+
+				// Generate HTML buttons for each newspaper using map and template literals
 				const buttons = newspapers.map(({ name, url, class: buttonClass }) => `
 					<form action="${url}" method="get" target="_blank" aria-label="${name}">
 						<button class="${buttonClass}" type="submit">${name}</button>
 					</form>
-				`).join('');
+				`).join(''); // Join the array of form buttons into a single string of HTML
 
+				// Replace the loading message with the generated buttons
 				container.innerHTML = buttons;
 			} catch (error) {
+				// If an error occurs, display an error message
 				container.innerHTML = '<p>Error loading newspapers.</p>'; // Error message
+
+				// Log the error to the console for debugging purposes
 				console.error('There has been a problem with your fetch operation:', error);
 			}
 		}
 	}
+</script>
 
 	document.addEventListener('DOMContentLoaded', () => {
 		const sources = [
