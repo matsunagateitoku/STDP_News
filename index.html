@@ -202,6 +202,7 @@ function toggleStyles() {
 
     sections.forEach(sectionId => {
         const buttons = document.querySelectorAll(`#${sectionId} button`);
+	console.log(buttons);  // Check if buttons are being selected
         buttons.forEach(button => {
             // Toggle the 'no-styles' class
             button.classList.toggle('no-styles');
