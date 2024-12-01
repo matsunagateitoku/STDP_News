@@ -34,16 +34,16 @@
 }
 
 .no-styles {
-  background-color: rgb(118, 93, 118);
-  border: none;
-  color: whitesmoke;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
+  background-color: rgb(118, 93, 118) !important;
+  border: none !important;
+  color: whitesmoke!important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  margin: 4px 2px !important;
+  cursor: pointer !important;
+  border-radius: 16px !important;
 
 }
 
