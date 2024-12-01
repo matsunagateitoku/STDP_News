@@ -34,11 +34,11 @@
 }
 
 .no-styles {
-    background: none; /* Remove background */
-    color: inherit;   /* Inherit text color */
-    border: none;     /* Remove border */
-    padding: 0;      /* Remove padding */
-    cursor: pointer;  /* Change cursor to pointer */
+    background: none !important; /* Remove background */
+    color: inherit !important;   /* Inherit text color */
+    border: none !important;     /* Remove border */
+    padding: 0 !important;      /* Remove padding */
+    cursor: pointer !important;  /* Change cursor to pointer */
 }
 
 
