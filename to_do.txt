@@ -11,6 +11,7 @@ easy/small
     go through the data file
   improve the header
   add comments to JS
+ more HTML boilerplate?
 
   Thoughts
   - add logo to some sites?
