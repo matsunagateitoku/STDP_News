@@ -190,8 +190,15 @@
 		document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
 	});
 
-        function changeButtonText() {
-            document.getElementById("toggleStyles").innerText = "Show Bias";
+
+
+	function changeButtonText() {
+            var button = document.getElementById("toggleStyles");
+            if (button.innerText === "Show Bias") {
+                button.innerText = "Hide Bias";
+            } else {
+                button.innerText = "Show Bias";
+            }
         }
 
 function toggleStyles() {
