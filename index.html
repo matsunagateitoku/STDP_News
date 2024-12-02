@@ -29,8 +29,7 @@
             </div>
         </div>
     </nav>
-
-	<button id="toggleStyles">Hide Bias</button>
+	<button id="toggleStyles" onclick="changeButtonText()">Hide Bias</button>
 
 	<summary>National Newspapers</summary>
     	<div class="tab" id="nationalPapers"></div>
@@ -190,6 +189,10 @@
 		loadNewspapers(sources);
 		document.getElementById('toggleStyles').addEventListener('click', toggleStyles);
 	});
+
+        function changeButtonText() {
+            document.getElementById("toggleStyles").innerText = "Show Bias";
+        }
 
 function toggleStyles() {
 	console.log('Toggling styles');  // Check if the function is being triggered
