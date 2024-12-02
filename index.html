@@ -205,6 +205,10 @@ function toggleStyles() {
         buttons.forEach(button => {
             // Toggle the 'no-styles' class
             button.classList.toggle('no-styles');
+
+	function changeButtonText() {
+            document.getElementById("myButton").innerText = "Show Bias";
+        }
         });
     });
 }
