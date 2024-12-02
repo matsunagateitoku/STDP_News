@@ -1,16 +1,13 @@
 big/hard
-  - add on bais buttons [added it but its not working]
   - add button to "show more"
   - change the domain name
 - add links to jump to sections
 
 
 easy/small
-  add colors to all the buttons
   add more papers 
     go through the data file
   improve the header
-  add comments to JS
  more HTML boilerplate?
 
   Thoughts
