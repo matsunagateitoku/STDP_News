@@ -40,6 +40,11 @@
         "url": "https://www.dallasnews.com/",
         "class": "grey"
     },
+   {
+        "name": "San Francisco Chronicle",
+        "url": "https://www.sfchronicle.com/",
+        "class": "blue"
+    }, 
     {
         "name": "NY Daily News",
         "url": "https://www.nydailynews.com/",
