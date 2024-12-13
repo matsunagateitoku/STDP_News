@@ -45,7 +45,7 @@
         "class": "blue"
     },
     {
-        "name": "Drudge",
+        "name": "Drudge News",
         "url": "https://www.drudgereport.com/",
         "class": "grey"
     },
