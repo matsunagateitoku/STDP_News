@@ -48,5 +48,55 @@
         "name": "Vulture",
         "url": "https://www.vulture.com/",
         "class": "grey"
+    },
+    {
+        "name": "The Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com",
+        "class": "grey"
+    },
+    {
+        "name": "E! Online",
+        "url": "https://www.eonline.com",
+        "class": "grey"
+    },
+    {
+        "name": "BuzzFeed Entertainment",
+        "url": "https://www.buzzfeed.com/entertainment",
+        "class": "grey"
+    },
+    {
+        "name": "The Wrap",
+        "url": "https://www.thewrap.com",
+        "class": "grey"
+    },
+    {
+        "name": "PopSugar",
+        "url": "https://www.popsugar.com",
+        "class": "grey"
+    },
+    {
+        "name": "Entertainment Weekly",
+        "url": "https://ew.com",
+        "class": "grey"
+    },
+    {
+        "name": "Screen Rant",
+        "url": "https://screenrant.com",
+        "class": "grey"
+    },
+    {
+        "name": "Collider",
+        "url": "https://www.collider.com",
+        "class": "grey"
+    },
+    {
+        "name": "MTV News",
+        "url": "https://www.mtv.com/news",
+        "class": "grey"
+    },
+    {
+        "name": "Complex",
+        "url": "https://www.complex.com",
+        "class": "grey"
     }
 ]
