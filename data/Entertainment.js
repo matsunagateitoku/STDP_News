@@ -8,5 +8,10 @@
         "name": "Rolling Stone",
         "url": "https://www.rollingstone.com/",
         "class": "grey"
-    }
+    },
+    {
+        "name": "Deadline",
+        "url": "https://deadline.com/",
+        "class": "grey"
+    }   
 ]
