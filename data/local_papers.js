@@ -2,7 +2,7 @@
     {
         "name": "NY Post",
         "url": "https://nypost.com/",
-        "class": "grey"
+        "class": "red-national"
     },
     {
         "name": "Chicago Tribune",
@@ -42,7 +42,7 @@
     {
         "name": "San Francisco Chronicle",
         "url": "https://www.sfchronicle.com/",
-        "class": "blue"
+        "class": "blue-national"
     },
     {
         "name": "NY Daily News",
@@ -82,7 +82,7 @@
     {
         "name": "Washington Times",
         "url": "https://www.washingtontimes.com/",
-        "class": "blue-national"
+        "class": "red-national"
     },
     {
         "name": "The Baltimore Sun",
