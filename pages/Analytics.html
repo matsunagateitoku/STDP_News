@@ -1,3 +1,181 @@
-Analytics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Sites Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .card {
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            height: 400px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
 
-add a bunch of analytics here
+<div class="container">
+    <div class="row">
+        <!-- Traffic Overview Card -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    Traffic Overview
+                </div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas id="trafficChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- User Engagement Card -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    User Engagement
+                </div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas id="engagementChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Article Categories Distribution Card -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    Article Categories Distribution
+                </div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas id="categoriesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Site Comparison Card -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-warning text-white">
+                    News Site Comparison
+                </div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas id="comparisonChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Traffic Overview Chart
+    var ctx1 = document.getElementById('trafficChart').getContext('2d');
+    var trafficChart = new Chart(ctx1, {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+            datasets: [{
+                label: 'Monthly Traffic',
+                data: [3000, 4500, 7000, 6500, 8000, 9500],
+                borderColor: 'rgb(75, 192, 192)',
+                fill: false,
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // User Engagement Chart
+    var ctx2 = document.getElementById('engagementChart').getContext('2d');
+    var engagementChart = new Chart(ctx2, {
+        type: 'bar',
+        data: {
+            labels: ['News Site 1', 'News Site 2', 'News Site 3', 'News Site 4'],
+            datasets: [{
+                label: 'Average Engagement (Minutes)',
+                data: [15, 20, 25, 18],
+                backgroundColor: ['#36a2eb', '#ff9f40', '#ffcd56', '#4bc0c0'],
+                borderColor: 'rgba(0, 0, 0, 0.1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // Article Categories Distribution (Pie Chart)
+    var ctx3 = document.getElementById('categoriesChart').getContext('2d');
+    var categoriesChart = new Chart(ctx3, {
+        type: 'pie',
+        data: {
+            labels: ['Politics', 'Technology', 'Sports', 'Entertainment', 'Health'],
+            datasets: [{
+                label: 'Article Categories',
+                data: [30, 25, 20, 15, 10],
+                backgroundColor: ['#ff5733', '#33ff57', '#3357ff', '#ff33a8', '#f5ff33'],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // News Site Comparison (Radar Chart)
+    var ctx4 = document.getElementById('comparisonChart').getContext('2d');
+    var comparisonChart = new Chart(ctx4, {
+        type: 'radar',
+        data: {
+            labels: ['Traffic', 'User Engagement', 'Article Quality', 'Design', 'Popularity'],
+            datasets: [{
+                label: 'News Site 1',
+                data: [90, 80, 75, 85, 80],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'News Site 2',
+                data: [80, 75, 80, 80, 70],
+                backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                borderColor: 'rgba(255, 159, 64, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scale: {
+                ticks: {
+                    beginAtZero: true,
+                    max: 100
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
