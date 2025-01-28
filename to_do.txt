@@ -1,3 +1,7 @@
+1 fix buttons on analytics
+2 add content to ref
+
+
 big/hard
   - add button to "show more"
   - change the domain name
