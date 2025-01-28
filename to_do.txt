@@ -7,8 +7,6 @@ big/hard
 easy/small
   -fix the buttons (home, about us, etc.)
   -fix location of hide button
-  =add more papers 
-    go through the data file
   improve the header
  more HTML boilerplate?
 
