@@ -1,5 +1,5 @@
-1 fix buttons on analytics
-2 add content to ref
+1 fix buttons on the top of each page
+2 add content to ref page
 
 
 big/hard
